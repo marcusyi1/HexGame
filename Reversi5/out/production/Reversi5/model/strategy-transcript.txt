@@ -1,0 +1,50 @@
+Starting Board:
+          -   -   -   -   -   -
+        -   -   -   -   -   -   -
+      -   -   -   -   -   -   -   -
+    -   -   -   -   -   -   -   -   -
+  -   -   -   -   X   O   -   -   -   -
+-   -   -   -   O   -   X   -   -   -   -
+  -   -   -   -   X   O   -   -   -   -
+    -   -   -   -   -   -   -   -   -
+      -   -   -   -   -   -   -   -
+        -   -   -   -   -   -   -
+          -   -   -   -   -   -
+Bot: setCoordinateState(new HexCoordinate(-1, -1, 2));
+          -   -   -   -   -   -
+        -   -   -   -   -   -   -
+      -   -   -   -   -   -   -   -
+    -   -   -   -   -   -   -   -   -
+  -   -   -   X   X   O   -   -   -   -
+-   -   -   -   X   -   X   -   -   -   -
+  -   -   -   -   X   O   -   -   -   -
+    -   -   -   -   -   -   -   -   -
+      -   -   -   -   -   -   -   -
+        -   -   -   -   -   -   -
+          -   -   -   -   -   -
+Player: setCoordinateState(new HexCoordinate(1, 1, -2));
+          -   -   -   -   -   -
+        -   -   -   -   -   -   -
+      -   -   -   -   -   -   -   -
+    -   -   -   -   -   -   -   -   -
+  -   -   -   X   X   O   -   -   -   -
+-   -   -   -   X   -   O   -   -   -   -
+  -   -   -   -   X   O   O   -   -   -
+    -   -   -   -   -   -   -   -   -
+      -   -   -   -   -   -   -   -
+        -   -   -   -   -   -   -
+          -   -   -   -   -   -
+Bot: setCoordinateState(new HexCoordinate(1, 1, -2));
+          -   -   -   -   -   -
+        -   -   -   -   -   -   -
+      -   -   -   -   -   -   -   -
+    -   -   -   -   -   -   -   -   -
+  -   -   -   X   X   O   -   -   -   -
+-   -   -   -   X   -   O   -   -   -   -
+  -   -   -   -   X   X   X   X   -   -
+    -   -   -   -   -   -   -   -   -
+      -   -   -   -   -   -   -   -
+        -   -   -   -   -   -   -
+          -   -   -   -   -   -
+Continues game.
+Bot put in place where it would get the most cells rather than a the closest to top left.
